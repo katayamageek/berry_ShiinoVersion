@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(243, 225, 228);
+}
+
+
+/* index.php */
+.top--wrap{
+    width: 50%;
+    /* padding-top: 15%; */
+    margin: 0 auto;
+}
+
+.top--berry{
+    margin: 2%;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.top--container{
+    background-color: white;
+    padding: 25px;
+}
+
+.top--btn-area{
+    /* display: block; */
+    margin: 20px auto;
+    
+}
+
+.top--form-title{
+    margin: 1%;
+}
+.top--form-control{
+    width: 100%;
+}
+
+/* .login{
+    margin: 0 auto;
+    padding-left: 30%;} */
+
+
+/* select.php */
+
+
+
+
+/* 共通化 */
+.navbar{
+    border: solid 1px black;
+    background-color: black;
+    color: white;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover{
+    opacity: 0.9;
+    /* background-color: white; */
+}
+.navbar-header-left{
+    width: 70%;
+}
+.navbar-header-right{
+    width: 30%;
+}
+.tx-center{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.just{
+    justify-content:space-between;
+}
+
+.sub_btn{
+    width: 100px;
+    height: 40px;
+    background-color: dodgerblue;
+    color: white;
+    /* border: solid 0.5px dodgerblue; */
+    /* box-shadow: 0.5px 0.5px 0.5px dodgerblue; */
+}
+.sub_btn:hover{
+    opacity: 0.8;
+    background-color: dodgerblue;
+    /* box-shadow: 1px 1px 1px dodgerblue; */
+}
+
+.mg-10{
+    margin: 10px;
+}
